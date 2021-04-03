@@ -1,0 +1,32 @@
+mybatis:
+  type-aliases-package: com.mytest.project.vo
+server:
+  port: 9090
+spring:
+  mvc:
+    view:
+      prefix: /WEB-INF/views/
+      suffix: .jsp
+# Loading class `com.mysql.jdbc.Driver'. This is deprecated. The new driver class is `com.mysql.cj.jdbc.Driver'. The driver is automatically registered via the SPI and manual loading of the driver class is generally unnecessary.
+  datasource:
+    driver-class-name: net.sf.log4jdbc.sql.jdbcapi.DriverSpy
+    url: jdbc:log4jdbc:oracle:thin:@localhost:1521:xe
+    username: spring
+    password: spring
+  servlet:
+    multipart:
+      enabled: true
+      max-file-size: 100MB
+      max-request-size: 100MB
+  mail:
+    host: smtp.gmail.com
+    port: 587
+    username: dkfkd1198@gmail.com
+    password: dkfkd119800
+    properties:
+      mail:
+        smtp:
+          auth: true
+          starttls:
+            enable: true
+    
