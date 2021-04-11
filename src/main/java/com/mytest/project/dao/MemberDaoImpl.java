@@ -1,11 +1,11 @@
-package com.mytest.project.member.service;
+package com.mytest.project.dao;
 
 import java.util.List;
 
 import org.springframework.stereotype.Repository;
 
 import com.mytest.project.mapper.MemberTable;
-import com.mytest.project.member.vo.Member;
+import com.mytest.project.vo.Member;
 
 @Repository
 public class MemberDaoImpl implements MemberDao{

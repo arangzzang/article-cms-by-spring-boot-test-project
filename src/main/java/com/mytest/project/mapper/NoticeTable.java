@@ -5,11 +5,11 @@ import java.util.List;
 import org.apache.ibatis.annotations.Mapper;
 import org.apache.ibatis.annotations.Select;
 
-import com.mytest.project.vo.Member;
+import com.mytest.project.vo.Notice;
 
 @Mapper
-public interface MemberTable {
+public interface NoticeTable {
 
-	@Select("select * from member")
-	public List<Member> selectAllMembers();
+	@Select("select * from notice")
+	public List<Notice> selectNotice();
 }

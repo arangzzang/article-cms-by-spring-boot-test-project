@@ -7,11 +7,14 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.servlet.ModelAndView;
 
-import com.mytest.project.member.dao.MemberService;
-import com.mytest.project.member.vo.Member;
-import com.mytest.project.person.vo.Person;
+import com.mytest.project.service.MemberService;
+import com.mytest.project.vo.Member;
+import com.mytest.project.vo.Person;
+
+import lombok.extern.slf4j.Slf4j;
 
 @RestController
+@Slf4j
 public class MyTestProjectConteroller {
 	
 //	private 
@@ -41,6 +44,6 @@ public class MyTestProjectConteroller {
 //		return service.selectMember();
 		return mv;
 	}
-	
-	
 }
+
+

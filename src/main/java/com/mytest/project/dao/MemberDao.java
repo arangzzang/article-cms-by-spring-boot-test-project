@@ -1,9 +1,9 @@
-package com.mytest.project.member.service;
+package com.mytest.project.dao;
 
 import java.util.List;
 
 import com.mytest.project.mapper.MemberTable;
-import com.mytest.project.member.vo.Member;
+import com.mytest.project.vo.Member;
 
 public interface MemberDao {
 

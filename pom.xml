@@ -24,6 +24,8 @@
 	
 	<properties>
 		<java.version>1.8</java.version>
+		
+		<apachetiles.version>3.0.5</apachetiles.version>
 	</properties>
 	<dependencies>
 		<!-- 스프링 JDBC -->	
@@ -123,7 +125,22 @@
 			<artifactId>mail</artifactId>
             <version>1.4.7</version>
 		</dependency>
-		
+		<!-- apache Tiles -->
+		<dependency>
+			<groupId>org.apache.tiles</groupId>
+			<artifactId>tiles-core</artifactId>
+			<version>${apachetiles.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.tiles</groupId>
+			<artifactId>tiles-jsp</artifactId>
+			<version>${apachetiles.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.tiles</groupId>
+			<artifactId>tiles-el</artifactId>
+			<version>${apachetiles.version}</version>
+		</dependency>
 		
 		
 	</dependencies>

@@ -1,13 +1,13 @@
-package com.mytest.project.member.dao;
+package com.mytest.project.service;
 
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+import com.mytest.project.dao.MemberDao;
 import com.mytest.project.mapper.MemberTable;
-import com.mytest.project.member.service.MemberDao;
-import com.mytest.project.member.vo.Member;
+import com.mytest.project.vo.Member;
 
 @Service
 public class MemberServiceImpl implements MemberService{

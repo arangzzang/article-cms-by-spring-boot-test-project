@@ -1,4 +1,4 @@
-package com.mytest.project.person.vo;
+package com.mytest.project.vo;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;

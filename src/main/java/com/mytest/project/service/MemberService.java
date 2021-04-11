@@ -1,8 +1,8 @@
-package com.mytest.project.member.dao;
+package com.mytest.project.service;
 
 import java.util.List;
 
-import com.mytest.project.member.vo.Member;
+import com.mytest.project.vo.Member;
 
 public interface MemberService {
 
